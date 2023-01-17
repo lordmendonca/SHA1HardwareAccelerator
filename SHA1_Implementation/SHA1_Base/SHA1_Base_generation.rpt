@@ -1,0 +1,145 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Jason\EIT\Semester_01\04_FSOC\SHA-1_Project\SHA1_Base.qsys --block-symbol-file --output-directory=C:\Jason\EIT\Semester_01\04_FSOC\SHA-1_Project\SHA1_Base --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading SHA-1_Project/SHA1_Base.qsys
+Progress: Reading input file
+Progress: Adding clock_bridge [clock_source 18.1]
+Progress: Parameterizing module clock_bridge
+Progress: Adding jtag_uart_core [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_core
+Progress: Adding nios2_cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding pio_leds [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_leds
+Progress: Adding pio_pushbuttons [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_pushbuttons
+Progress: Adding sha1_engine_0 [sha1_engine 1.0]
+Progress: Parameterizing module sha1_engine_0
+Progress: Adding timer_core [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_core
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SHA1_Base.jtag_uart_core: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SHA1_Base.pio_pushbuttons: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Jason\EIT\Semester_01\04_FSOC\SHA-1_Project\SHA1_Base.qsys --synthesis=VERILOG --output-directory=C:\Jason\EIT\Semester_01\04_FSOC\SHA-1_Project\SHA1_Base\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading SHA-1_Project/SHA1_Base.qsys
+Progress: Reading input file
+Progress: Adding clock_bridge [clock_source 18.1]
+Progress: Parameterizing module clock_bridge
+Progress: Adding jtag_uart_core [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_core
+Progress: Adding nios2_cpu [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding pio_leds [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_leds
+Progress: Adding pio_pushbuttons [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_pushbuttons
+Progress: Adding sha1_engine_0 [sha1_engine 1.0]
+Progress: Parameterizing module sha1_engine_0
+Progress: Adding timer_core [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_core
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SHA1_Base.jtag_uart_core: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SHA1_Base.pio_pushbuttons: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SHA1_Base: Generating SHA1_Base "SHA1_Base" for QUARTUS_SYNTH
+Info: jtag_uart_core: Starting RTL generation for module 'SHA1_Base_jtag_uart_core'
+Info: jtag_uart_core:   Generation command is [exec C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SHA1_Base_jtag_uart_core --dir=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0004_jtag_uart_core_gen/ --quartus_dir=C:/tools/common/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0004_jtag_uart_core_gen//SHA1_Base_jtag_uart_core_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_core: Done RTL generation for module 'SHA1_Base_jtag_uart_core'
+Info: jtag_uart_core: "SHA1_Base" instantiated altera_avalon_jtag_uart "jtag_uart_core"
+Info: nios2_cpu: "SHA1_Base" instantiated altera_nios2_gen2 "nios2_cpu"
+Info: onchip_mem: Starting RTL generation for module 'SHA1_Base_onchip_mem'
+Info: onchip_mem:   Generation command is [exec C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SHA1_Base_onchip_mem --dir=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0005_onchip_mem_gen/ --quartus_dir=C:/tools/common/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0005_onchip_mem_gen//SHA1_Base_onchip_mem_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_mem: Done RTL generation for module 'SHA1_Base_onchip_mem'
+Info: onchip_mem: "SHA1_Base" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info: pio_leds: Starting RTL generation for module 'SHA1_Base_pio_leds'
+Info: pio_leds:   Generation command is [exec C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SHA1_Base_pio_leds --dir=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0006_pio_leds_gen/ --quartus_dir=C:/tools/common/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0006_pio_leds_gen//SHA1_Base_pio_leds_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_leds: Done RTL generation for module 'SHA1_Base_pio_leds'
+Info: pio_leds: "SHA1_Base" instantiated altera_avalon_pio "pio_leds"
+Info: pio_pushbuttons: Starting RTL generation for module 'SHA1_Base_pio_pushbuttons'
+Info: pio_pushbuttons:   Generation command is [exec C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/tools/common/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SHA1_Base_pio_pushbuttons --dir=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0007_pio_pushbuttons_gen/ --quartus_dir=C:/tools/common/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0007_pio_pushbuttons_gen//SHA1_Base_pio_pushbuttons_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_pushbuttons: Done RTL generation for module 'SHA1_Base_pio_pushbuttons'
+Info: pio_pushbuttons: "SHA1_Base" instantiated altera_avalon_pio "pio_pushbuttons"
+Info: sha1_engine_0: "SHA1_Base" instantiated sha1_engine "sha1_engine_0"
+Info: timer_core: Starting RTL generation for module 'SHA1_Base_timer_core'
+Info: timer_core:   Generation command is [exec C:/tools/common/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/tools/common/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=SHA1_Base_timer_core --dir=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0009_timer_core_gen/ --quartus_dir=C:/tools/common/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0009_timer_core_gen//SHA1_Base_timer_core_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_core: Done RTL generation for module 'SHA1_Base_timer_core'
+Info: timer_core: "SHA1_Base" instantiated altera_avalon_timer "timer_core"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "SHA1_Base" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "SHA1_Base" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "SHA1_Base" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'SHA1_Base_nios2_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/tools/common/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/tools/common/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/tools/common/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SHA1_Base_nios2_cpu_cpu --dir=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0012_cpu_gen/ --quartus_bindir=C:/tools/common/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/JASON/AppData/Local/Temp/alt9069_3922873256341164624.dir/0012_cpu_gen//SHA1_Base_nios2_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2022.03.18 15:33:31 (*) Starting Nios II generation
+Info: cpu: # 2022.03.18 15:33:31 (*)   Checking for plaintext license.
+Info: cpu: # 2022.03.18 15:33:31 (*)   Couldn't query license setup in Quartus directory C:/tools/common/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2022.03.18 15:33:31 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2022.03.18 15:33:31 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2022.03.18 15:33:31 (*)   Plaintext license not found.
+Info: cpu: # 2022.03.18 15:33:31 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2022.03.18 15:33:32 (*)   Couldn't query license setup in Quartus directory C:/tools/common/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2022.03.18 15:33:32 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2022.03.18 15:33:32 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2022.03.18 15:33:32 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2022.03.18 15:33:32 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.03.18 15:33:32 (*)   Creating all objects for CPU
+Info: cpu: # 2022.03.18 15:33:32 (*)     Testbench
+Info: cpu: # 2022.03.18 15:33:32 (*)     Instruction decoding
+Info: cpu: # 2022.03.18 15:33:32 (*)       Instruction fields
+Info: cpu: # 2022.03.18 15:33:32 (*)       Instruction decodes
+Info: cpu: # 2022.03.18 15:33:33 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2022.03.18 15:33:33 (*)       Instruction controls
+Info: cpu: # 2022.03.18 15:33:33 (*)     Pipeline frontend
+Info: cpu: # 2022.03.18 15:33:33 (*)     Pipeline backend
+Info: cpu: # 2022.03.18 15:33:35 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.03.18 15:33:36 (*)   Creating encrypted RTL
+Info: cpu: # 2022.03.18 15:33:37 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SHA1_Base_nios2_cpu_cpu'
+Info: cpu: "nios2_cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_cpu_data_master_translator"
+Info: jtag_uart_core_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_core_avalon_jtag_slave_translator"
+Info: nios2_cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_cpu_data_master_agent"
+Info: jtag_uart_core_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_core_avalon_jtag_slave_agent"
+Info: jtag_uart_core_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_core_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: nios2_cpu_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_cpu_data_master_limiter"
+Info: Reusing file C:/Jason/EIT/Semester_01/04_FSOC/SHA-1_Project/SHA1_Base/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Jason/EIT/Semester_01/04_FSOC/SHA-1_Project/SHA1_Base/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Jason/EIT/Semester_01/04_FSOC/SHA-1_Project/SHA1_Base/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Jason/EIT/Semester_01/04_FSOC/SHA-1_Project/SHA1_Base/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: SHA1_Base: Done "SHA1_Base" with 33 modules, 52 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

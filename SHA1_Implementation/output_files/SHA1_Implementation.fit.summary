@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Mar 18 16:04:28 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : SHA1_Implementation
+Top-level Entity Name : SHA1_Implementation
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 13,039 / 49,760 ( 26 % )
+    Total combinational functions : 11,312 / 49,760 ( 23 % )
+    Dedicated logic registers : 5,748 / 49,760 ( 12 % )
+Total registers : 5748
+Total pins : 12 / 360 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 303,168 / 1,677,312 ( 18 % )
+Embedded Multiplier 9-bit elements : 6 / 288 ( 2 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
